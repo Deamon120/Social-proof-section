@@ -1,0 +1,158 @@
+body {
+  background-image:
+  url("images/bg-pattern-bottom-desktop.svg"),
+  url("images/bg-pattern-top-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: 100% -15%, 5% 0%;
+  background-size: 1000px , 600px;
+  position: relative;
+}
+
+.stars {
+  width: 400px;
+  height: 40px;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+
+
+}
+
+.stars.first {
+  position: absolute;
+  display:flex;
+  justify-content: space-evenly;
+  top: 100px;
+  right: 250px;
+
+
+}
+
+.stars.second {
+  position: absolute;
+  display:flex;
+  justify-content: space-evenly;
+  top: 160px;
+  right: 200px;
+
+}
+
+.stars.third {
+  position: absolute;
+  display:flex;
+  justify-content: space-evenly;
+  top: 220px;
+  right: 150px;
+
+}
+
+.square {
+  width: 300px;
+  height: 200px;
+  background-color:  hsl(300, 43%, 22%);
+  border-radius: 10px;
+  position: relative;
+}
+
+.square.colton {
+  position: absolute;
+  top: 370px;
+  left: 200px;
+
+}
+
+.square.irene {
+  position: absolute;
+  top: 390px;
+  left: 550px;
+
+}
+
+.square.anne {
+  position: absolute;
+  top: 410px;
+  left: 900px;
+
+}
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 45px;
+  margin-bottom: -5px;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+
+}
+
+h2 {
+ color: white;
+ position: absolute;
+ top: 20px;
+ left: 70px;
+ font-size: 11px;
+ font-family: 'Spartan', sans-serif;
+}
+
+h3 {
+color: hsl(333, 80%, 67%);
+position: absolute;
+top: 35px;
+left: 70px;
+font-size: 11px;
+font-family: 'Spartan', sans-serif;
+}
+
+h4 {
+margin: 13px auto 10px 15px;
+color: hsl(300, 43%, 22%);
+font-family: 'Spartan', sans-serif;
+font-size: 13px;
+font-weight: 700;
+
+}
+
+p {
+  color: hsl(303, 10%, 53%);
+  font-family: 'Spartan', sans-serif;
+  line-height: 1.6;
+  font-size: 13px;
+  font-weight: 700;
+
+
+}
+.paragraph {
+  color: hsl(300, 24%, 96%);
+  position: absolute;
+  top: 80px;
+  left: 22px;
+  right: 27px;
+  font-family: 'Spartan', sans-serif;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.users {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+}
+
+.stars-img {
+  width: 15px;
+  height: 15px;
+  margin: 10px 10px 10px 1px;
+}
+.stars-img-first {
+  width: 15px;
+  height: 15px;
+  margin: 10px 10px 10px 20px;
+}
+
+.names {
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 22px;
+
+}
